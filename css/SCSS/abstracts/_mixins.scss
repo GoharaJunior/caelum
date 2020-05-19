@@ -2,11 +2,13 @@
 
 // Tipografia
 @mixin title-large {
+  font-family: 'Open Sans',sans-serif;
   font-size: 55px;
   line-height: 20px;
 }
 
 @mixin title-medium-1 {
+  font-family: 'Open Sans',sans-serif;
   font-size: 48px;
   line-height: 20px;
 }
@@ -17,8 +19,9 @@
 }
 
 @mixin title-small-1 {
+  font-family: 'Open Sans',sans-serif;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 @mixin title-small-2 {
@@ -35,6 +38,7 @@
 
 // Container Fluid
 @mixin container-fluid {
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
