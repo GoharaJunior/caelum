@@ -1,0 +1,27 @@
+{
+  "name": "caelum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoharaJunior/caelum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoharaJunior/caelum/issues"
+  },
+  "homepage": "https://github.com/GoharaJunior/caelum#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-sass": "^4.1.0"
+  }
+}
