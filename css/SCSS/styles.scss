@@ -1,14 +1,17 @@
 // Arquivo de saída que reúne todas as partes.
 
-// GENERIC
-@import 'generic/resets';
-
-// SETTINGS
-
-// TOOLS
-
 // BASE
+@import 'base/resets';
 
-// OBJECTS
+// ABSTRACTS
+@import 'abstracts/fonts';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
 // COMPONENTS
+@import 'components/buttons';
+
+// LAYOUTS
+@import 'layouts/header'
+
+// VENDORS

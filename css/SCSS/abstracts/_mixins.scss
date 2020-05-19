@@ -1,0 +1,47 @@
+//  Mixins e funções necessárias para a construção de seus Layout.
+
+// Tipografia
+@mixin title-large {
+  font-size: 55px;
+  line-height: 20px;
+}
+
+@mixin title-medium-1 {
+  font-size: 48px;
+  line-height: 20px;
+}
+
+@mixin title-medium-2 {
+  font-size: 35px;
+  line-height: 20px;
+}
+
+@mixin title-small-1 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+@mixin title-small-2 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+@mixin title-micro {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+// Container Fluid
+@mixin container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// Responsive
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
