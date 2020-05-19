@@ -1,0 +1,26 @@
+// INFO
+.info-bg {
+  background-color: $primary-color;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 15px;
+  @include title-micro;
+  @include container-fluid;
+  @include mobile {
+    flex-direction: column;
+    text-align: center;
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.info a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
