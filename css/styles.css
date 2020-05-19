@@ -20,7 +20,7 @@ img {
   box-sizing: border-box;
 }
 
-.btn {
+.btn-1 {
   display: block;
   color: #000;
   border: 2px solid #000;
@@ -31,6 +31,28 @@ img {
   justify-content: center;
   display: flex;
   align-items: center;
+}
+
+.btn-2 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+  color: #fff;
+  border: 2px solid #fff;
+  background: transparent;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 250ms ease;
+}
+
+.btn-2:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .info-bg {
@@ -46,6 +68,7 @@ img {
   font-family: 'Open Sans',sans-serif;
   font-size: 14px;
   line-height: 20px;
+  flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -63,4 +86,72 @@ img {
 .info a {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.menu-bg {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.img-menu {
+  cursor: pointer;
+}
+
+.intro-bg {
+  height: 700px;
+  background-image: url("/img/background-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.intro {
+  padding: 150px 15px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  margin-bottom: 15px;
+  display: inline-block;
+  padding: 25px;
+  background-color: #FBF300;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 55px;
+  line-height: 20px;
+}
+
+.intro h2 {
+  margin-bottom: 15px;
+  display: block;
+  padding: 15px;
+  background-color: #FBF300;
+  max-width: 370px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 48px;
+  line-height: 20px;
+}
+
+.intro p {
+  color: #FBF300;
+  padding-bottom: 30px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
