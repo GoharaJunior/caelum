@@ -24,3 +24,25 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+
+// MENU
+.menu-bg {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  padding: 30px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  @include container-fluid;
+}
+
+.img-menu {
+  cursor: pointer;
+}
