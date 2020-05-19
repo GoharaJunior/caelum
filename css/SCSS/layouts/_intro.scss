@@ -1,0 +1,36 @@
+.intro-bg {
+  height: 700px;
+  background-image: url('/img/background-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.intro {
+  padding: 150px 15px;
+  @include container-fluid;
+}
+
+.intro h1 {
+  margin-bottom: 15px;
+  display: inline-block;
+  padding: 25px;
+  background-color: $primary-color;
+  @include title-large;
+}
+
+.intro h2 {
+  margin-bottom: 15px;
+  display: block;
+  padding: 15px;
+  background-color: $primary-color;
+  max-width: 370px;
+  @include title-medium-1;
+}
+
+.intro p {
+  color: $primary-color;
+  padding-bottom: 30px;
+  @include title-small-1
+}
