@@ -35,8 +35,9 @@ img {
 
 .btn-2 {
   font-family: 'Open Sans',sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
   display: block;
   color: #fff;
   border: 2px solid #fff;
@@ -154,4 +155,75 @@ img {
   font-family: 'Open Sans',sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.courses-bg h1 {
+  text-align: center;
+  padding: 0px 15px;
+  margin-top: 90px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 35px;
+  line-height: 20px;
+}
+
+.courses-container {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.courses-item {
+  margin-left: 15px;
+}
+
+.courses-item img {
+  border-radius: 5px;
+}
+
+.container-info-bg {
+  display: flex;
+  justify-content: center;
+}
+
+.container-info-bg p {
+  font-weight: 600;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.container-info {
+  width: 330px;
+  height: 180px;
+  padding: 0px 15px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+  border-radius: 10px;
+  border-left: 5px solid #6BC0D3;
+  top: -80px;
+  position: relative;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.arrow-info {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow-info img {
+  border-radius: 50%;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.arrow-info p {
+  background: #FBF300;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
