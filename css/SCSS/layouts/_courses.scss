@@ -2,7 +2,10 @@
   text-align: center;
   padding: 0px 15px;
   margin-top: 90px;
-  @include title-medium-2
+  @include title-medium-2;
+  @include mobile {
+    font-size: 30px;
+  }
 }
 
 .courses-container {

@@ -190,6 +190,12 @@ img {
   line-height: 20px;
 }
 
+@media (max-width: 768px) {
+  .courses-bg h1 {
+    font-size: 30px;
+  }
+}
+
 .courses-container {
   padding-top: 50px;
   display: flex;
