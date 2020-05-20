@@ -1,0 +1,11 @@
+footer {
+  text-align: center;
+  background-color: $primary-color;
+  padding: 30px;
+  @include title-micro;
+}
+
+footer img {
+  margin: 0 auto;
+  width: 100px;
+}
