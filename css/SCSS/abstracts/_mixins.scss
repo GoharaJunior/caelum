@@ -1,6 +1,12 @@
 //  Mixins e funções necessárias para a construção de seus Layout.
 
 // Tipografia
+@mixin big-title {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 70px;
+  line-height: 20px;
+}
+
 @mixin title-large {
   font-family: 'Open Sans',sans-serif;
   font-size: 55px;

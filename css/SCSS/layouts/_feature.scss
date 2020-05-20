@@ -1,0 +1,24 @@
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  text-align: center;
+  @include container-fluid;
+}
+
+.feature-item {
+  padding: 40px;
+}
+
+.feature-item img {
+  margin: 0 auto;
+}
+
+.feature-item h3 {
+  @include big-title;  
+}
+
+.feature-item p {
+  @include title-small-1
+}
