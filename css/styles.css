@@ -80,6 +80,54 @@ img {
   border: 2px solid #FBF300;
 }
 
+.btn-4 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  color: #000;
+  border: 2px solid #000;
+  background: transparent;
+  width: 40px;
+  height: 35px;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 250ms ease;
+}
+
+.btn-4:hover {
+  background-color: #FBF300;
+  color: #000;
+  border: 2px solid #FBF300;
+}
+
+.btn-5 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  color: #000;
+  border: 2px solid #000;
+  background: transparent;
+  width: 240px;
+  height: 60px;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 250ms ease;
+}
+
+.btn-5:hover {
+  background-color: #FBF300;
+  color: #000;
+  border: 2px solid #FBF300;
+}
+
 .info-bg {
   background-color: #FBF300;
 }
@@ -386,4 +434,66 @@ img {
   font-family: 'Open Sans',sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.our-instructors-bg {
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.our-instructors-bg h2 {
+  text-align: center;
+  padding-top: 90px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 35px;
+  line-height: 20px;
+}
+
+.our-instructors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.instructors {
+  padding: 20px;
+}
+
+.instructors img {
+  border-radius: 10px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+}
+
+.instructors h3 {
+  margin: 0px;
+  padding-top: 20px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.instructors p {
+  margin: 0px;
+  padding-bottom: 30px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.instructors a {
+  margin: 0 auto;
+}
+
+.btn-equip {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }

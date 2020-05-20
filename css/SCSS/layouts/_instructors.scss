@@ -1,0 +1,54 @@
+.our-instructors-bg {
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.our-instructors-bg h2 {
+  text-align: center;
+  padding-top: 90px;
+  @include title-medium-2;
+}
+
+.our-instructors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  text-align: center;
+  @include container-fluid;
+
+}
+
+.instructors {
+  padding: 20px;
+}
+
+.instructors img {
+  border-radius: 10px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+}
+
+.instructors h3 {
+  margin: 0px;
+  padding-top: 20px;
+  @include title-small-1;
+}
+
+.instructors p {
+  margin: 0px;
+  padding-bottom: 30px;
+  @include title-small-3;
+}
+
+.instructors a {
+  margin: 0 auto;
+}
+
+.btn-equip {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
