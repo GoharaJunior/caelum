@@ -240,13 +240,88 @@ img {
   line-height: 20px;
 }
 
-.container-info {
+.container-info-1 {
   width: 330px;
   height: 180px;
   padding: 0px 15px;
   box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
   border-radius: 10px;
-  border-left: 5px solid #6BC0D3;
+  border-left: 5px solid #3498db;
+  top: -80px;
+  position: relative;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container-info-2 {
+  width: 330px;
+  height: 180px;
+  padding: 0px 15px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+  border-radius: 10px;
+  border-left: 5px solid #2ecc71;
+  top: -80px;
+  position: relative;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container-info-3 {
+  width: 330px;
+  height: 180px;
+  padding: 0px 15px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+  border-radius: 10px;
+  border-left: 5px solid #e74c3c;
+  top: -80px;
+  position: relative;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container-info-4 {
+  width: 330px;
+  height: 180px;
+  padding: 0px 15px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+  border-radius: 10px;
+  border-left: 5px solid #9b59b6;
+  top: -80px;
+  position: relative;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container-info-5 {
+  width: 330px;
+  height: 180px;
+  padding: 0px 15px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+  border-radius: 10px;
+  border-left: 5px solid #1abc9c;
+  top: -80px;
+  position: relative;
+  background: #fff;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.container-info-6 {
+  width: 330px;
+  height: 180px;
+  padding: 0px 15px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.0957314);
+  border-radius: 10px;
+  border-left: 5px solid #e67e22;
   top: -80px;
   position: relative;
   background: #fff;
@@ -280,4 +355,35 @@ img {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  padding: 40px;
+}
+
+.feature-item img {
+  margin: 0 auto;
+}
+
+.feature-item h3 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 70px;
+  line-height: 20px;
+}
+
+.feature-item p {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 20px;
+  line-height: 30px;
 }
