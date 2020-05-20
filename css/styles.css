@@ -56,6 +56,30 @@ img {
   color: #000;
 }
 
+.btn-3 {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  color: #000;
+  border: 2px solid #000;
+  background: transparent;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 250ms ease;
+}
+
+.btn-3:hover {
+  background-color: #FBF300;
+  color: #000;
+  border: 2px solid #FBF300;
+}
+
 .info-bg {
   background-color: #FBF300;
 }
@@ -174,6 +198,22 @@ img {
   margin: 0 auto;
 }
 
+@media (max-width: 1153px) {
+  .courses-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-container {
+    justify-content: center;
+  }
+}
+
+.courses-container a {
+  justify-content: center;
+}
+
 .courses-item {
   margin-left: 15px;
 }
@@ -226,4 +266,12 @@ img {
   padding: 0px 10px;
   text-transform: uppercase;
   border-radius: 5px;
+}
+
+.btn-courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }

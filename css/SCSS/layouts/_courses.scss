@@ -9,6 +9,16 @@
   padding-top: 50px;
   display: flex;
   @include container-fluid;
+  @include desktop {
+    justify-content: center;
+  }
+  @include mobile {
+    justify-content: center;
+  }
+}
+
+.courses-container a {
+  justify-content: center;
 }
 
 .courses-item {
@@ -61,6 +71,11 @@
   border-radius: 5px;
 }
 
+.btn-courses {
+  display: flex;
+  justify-content: center;
+  @include container-fluid;
+}
 
 
 // 
